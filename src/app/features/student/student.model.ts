@@ -1,0 +1,31 @@
+export class Student {
+  constructor(
+    public id: number,
+    public uuid: string,
+    public firstName: string,
+    public lastName: string,
+    public middleInitial: string,
+    public email: string,
+    public password: string,
+    public userAccountStatus: string,
+    public termsOfComm: string,
+    public dateCreated: string,
+    public lastLogin: string,
+    public deactivationReason: string,
+    public utmSource: string,
+    public utmMedium: string,
+    public utmCampaign: string,
+    public lastUpdated: string,
+    public siteSource: string,
+    public nagEmailSubscription: string,
+    public unsubscriptionReason: string,
+    public primarySource: string,
+    public secondarySource: string,
+    public matchCollegeId: number,
+    public filters: string,
+    public filterMajordata: string,
+    public filterState: string,
+    public filterBucketdata: string,
+    public registerSource: string
+  ) {}
+}
